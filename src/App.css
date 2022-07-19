@@ -10,6 +10,11 @@
   background-color: #282c34;
 }
 
+.set-color-height {
+  color: #282c34;
+  min-height: 100vh;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
