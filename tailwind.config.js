@@ -12,6 +12,9 @@ module.exports = {
         'brown-base': '#8F8642',
         'nav-base':'#F2B429',
       },
+      fontFamily: {
+        sans: ['Nunito', 'sans-serif'],
+      },
     },
   },
   plugins: [],

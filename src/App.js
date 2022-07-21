@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    <div class="bg-slate-700">
+    <div class="body-class">
       <NavBar setToken={setToken}/>
       <BrowserRouter>
         <Routes>
