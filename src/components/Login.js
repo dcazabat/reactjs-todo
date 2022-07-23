@@ -39,14 +39,16 @@ export default function Login({ setToken }) {
         });
         setToken(token);
     }
-    const handleSubmitPost = async e => {
-        e.preventDefault();
-        const n = await singupUser({
+    const handleSubmitPost = async n => {
+        n.preventDefault();
+        console.log('signup');
+        await singupUser({
             username,
             usernamecompleted,
             password,
             passwordverified
         });
+        setSingup(false);
     }
 
     const handleSingup = async h => {
